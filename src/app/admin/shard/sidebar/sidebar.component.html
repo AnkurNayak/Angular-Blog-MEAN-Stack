@@ -1,0 +1,37 @@
+<div class="navbar">
+    <div class="top">
+        <mat-icon [inline]='true'>notifications_none</mat-icon>
+    </div>
+    <div class="user">
+        <img src="https://theartistgsm.com/wp-content/uploads/2020/08/admin-settings-male.png" alt="">
+        <h4 class="name">admin</h4>
+        <p class="mail">admin@gmail.com</p>
+    </div>
+    <div class="menu">
+        <div class="menu-head">
+            <span>dashboard</span>
+        </div>
+        <div class="menu-item">
+            <button mat-button class="menu-button" [routerLink]="['/dashboard']">
+                <mat-icon>dashboard</mat-icon>
+                <span>Home</span>
+            </button>
+            <button mat-button class="menu-button" [routerLink]="['/posts']">
+                <mat-icon>message</mat-icon>
+                <span>Posts</span>
+            </button>
+            <button mat-button class="menu-button">
+                <mat-icon>comment</mat-icon>
+                <span>Comments</span>
+            </button>
+            <button mat-button class="menu-button">
+                <mat-icon>pages</mat-icon>
+                <span>Pages</span>
+            </button>
+            <button mat-button class="menu-button">
+                <mat-icon>settings</mat-icon>
+                <span>Settings</span>
+            </button>
+        </div>
+    </div>
+</div>
